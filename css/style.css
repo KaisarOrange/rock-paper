@@ -1,0 +1,89 @@
+
+#content{
+    text-align: center;
+}
+h1, .num, p, a{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.num{
+  font-size: 2em;
+}
+.bold{
+    font-weight: bold;
+}
+/* Add a black background color to the top navigation */
+
+.topnav {
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #131313;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #df71df;
+    color: white;
+  }
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+.flex-container div{
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+  
+  /* this selector selects all divs inside of .flex-container */
+.column{
+  flex-direction: column;
+}
+body{
+    background-color: pink;
+}
+.sign{
+    font-size: 10em;
+}
+.btn{
+  font-size: 5em;
+  background-color: #f638cd;
+  color: white;
+  border: none;
+  text-align: center;
+  padding: 15px 32px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin: 20px;
+}
+.btn:hover{
+
+  background-color: #ddd;
+  color: black;
+}
+.selector{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-choice{
+  margin: 0px;
+}
