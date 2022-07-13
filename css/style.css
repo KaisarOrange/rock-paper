@@ -53,6 +53,7 @@ h1, .num, p, a{
   margin-right: 40px;
   margin-left: 40px;
   margin-bottom: 10px;
+  flex: 1;
 }
   
   /* this selector selects all divs inside of .flex-container */
