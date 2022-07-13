@@ -15,7 +15,9 @@ h1, .num, p, a{
 /* Add a black background color to the top navigation */
 
 .topnav {
-    margin: 50px;
+    margin: auto;
+    margin-top: 40px;
+    width: 700px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     border-radius: 20px;
